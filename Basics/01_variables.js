@@ -13,7 +13,7 @@ console.log(accountId)
 
 /*
 Prefer not to use var
-Because of issue in black Scope and functional scope
+Because of issue in block Scope and functional scope
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity,accountState])
