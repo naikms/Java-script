@@ -66,3 +66,4 @@ console.log(gameCounter); // answer ==> 101
 
 ++gameCounter;
 console.log(gameCounter);
+// Prefixes and postfixes https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment 
