@@ -35,3 +35,30 @@ const myFunction = function(){
 console.log(typeof myFunction); // function
 console.log(typeof heros);      // object
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+// stack (primitive) Heap(non-primitive)
+
+let school = "GLPSBidarakoppa"
+ anotherSchool = school
+ console.log(anotherSchool); // GLPSBidarakoppa
+ anotherSchool = "Morarji" 
+ console.log(anotherSchool); //Morarji
+
+
+let user01 = {                               // this is object type
+    email: "user@google.com",
+    upiId:  "naik@ybl"
+ }
+console.log(user01.email);     ///user@google.com
+let user02 = user01
+ 
+ user02.email = "naik@google.com"
+ console.log(user01.email);   // naik@google.com
+ console.log(user02.email);   // naik@google.com
+
+ 
