@@ -15,14 +15,18 @@ const anotherId = Symbol(123)
 
 console.log(Id == anotherId);
 
-const bigNumber = 1248379028031203n
+// const bigNumber = 1248379028031203n
 
 // reference types or Non-primitive: 
 
 // Array,functions, Objects.
 
-const heroe = ["Shaktiman", "Bheem", "Arjun"]; // Arrays
+const heroe = ["Shaktiman", "Bheem", "Arjun"]; // Arrays has to declare in Square bracket.
 let myobj = {
-    name: "naik",
+    name: "naik", // Objects are in curly backets, 
     age: 26,
 }
+const myFunction = function(){
+    console.log("Helo world");
+}                                    // Here function is stored in variables, In function we can store the any type of data.
+ log
