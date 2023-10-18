@@ -4,7 +4,7 @@ const heros = ["vishnu","rajkumar","sudeep"]
 //console.log(friends); // [ 'manu', 'abhi', 'kishu', [ 'vishnu', 'rajkumar', 'sudeep' ] ]
 // console.log(friends[3][2]); // sudeep, Avoid
 
-const newfriends = friends.concat(heros) // it will properly in one array,
+const newfriends = friends.concat(heros) // it will create properly in one array,
 console.log(newfriends); // [ 'manu', 'abhi', 'kishu', 'vishnu', 'rajkumar', 'sudeep' ]
 
 const newheros = [...friends, ...heros]
