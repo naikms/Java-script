@@ -1,0 +1,3 @@
+** console.log(this); // {} ===> empty object in node environment, window in browser environment.
+we can't use this in arrow and normal functions.
+
