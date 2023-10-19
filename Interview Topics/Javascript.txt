@@ -1,3 +1,5 @@
 ** console.log(this); // {} ===> empty object in node environment, window in browser environment.
 we can't use this in arrow and normal functions.
 
+IIFE is used to Implement immediately and sometime global scopes makes problem/polution, to reduce the global scope pollution/problem, we use IIFE.
+To write two IIFE, first we have to end  first IIFE, for that we have to put ";" after one IIFE Execution.
