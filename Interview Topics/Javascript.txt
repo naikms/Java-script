@@ -14,3 +14,19 @@ Javascript Eecution context
 
 ==> Memory Creation/ Creation  Phase.
 ==> Execution Phase.
+
+
+
+Switch
+========
+In switch syntax, If we write Break, Everything after match Case will be executed (including match Case)
+
+Truthy and falsy
+false: Falsy Value
+// false,0,-0, BigInt0 0n, "", null ,undefined, NaN.
+Truthy:
+// Truthy Value
+// "0" , 'false' , " ", [], {}, function() {}
+false == 0 ; truth.
+false == "" ; truth.
+0 == '' ; truth.
