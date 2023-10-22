@@ -15,7 +15,10 @@ Javascript Eecution context
 ==> Memory Creation/ Creation  Phase.
 ==> Execution Phase.
 
-
+for of
+======
+in for of loops, we can't iterate the Object.
+we can iterate string, array , Map.
 
 Switch
 ========
