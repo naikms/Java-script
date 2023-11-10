@@ -33,12 +33,8 @@ buttons.forEach(function(button){
 });
 ```
 
-<<<<<<< HEAD
 ## Project 2 Solution
-=======
-## Project 2
 
->>>>>>> f467b3c271da43673309321bac42eb7c82e82ddc
 ```javascript
 const form = document.querySelector('form');
 // this usecase will give you empty
